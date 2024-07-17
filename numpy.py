@@ -20,3 +20,22 @@ MNP2 = NP1*NP2
 
 MNP4 = np.multiply(NP1,NP2)
 
+sum1 = NP1+NP2
+
+sub1 = NP1-NP2 
+
+sub2 = np.subtract(NP1,NP2)
+
+np.sum(NP1)
+
+Broad_Nump = NP1+3 #add a 3 constant to all the variabbles of the matrix
+
+NP3 = np.array([[3,4]])
+
+NP1+NP3 
+
+D = np.divide([12,14,16],5)
+
+D1 = np.floor_divide([12,14,16],5)
+
+SQ = np.sqrt(90)
