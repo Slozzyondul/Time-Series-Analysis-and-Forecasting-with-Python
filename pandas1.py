@@ -54,3 +54,27 @@ pos3 = data_set2.iloc[:,0]
 #choosing several columns
 pos4 = data_set2.iloc[:,1:3]
 
+#deleting a column
+
+data_set3 = data_set2.drop('grade1',axis=1)
+
+#replacing values
+data_set4 = data_set.replace(10,12)
+
+#replaing values using dictionary
+pos5 = data_set3.replace({12:10, 9:30})
+
+#first 3 items
+pos6 = data_set3.head(3)
+
+#last 3
+pos7 = data_set3.tail(3)
+
+#sorting values
+pos8 = data_set2.sort_values('grade1', ascending=False)
+
+#sorting index
+pos9 = data_set2.sort_index(axis=0, ascending=True)
+
+#reading different file formats in pandas
+data = pd.read_csv('Data-Set.csv')
