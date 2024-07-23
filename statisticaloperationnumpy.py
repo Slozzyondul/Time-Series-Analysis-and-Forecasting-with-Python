@@ -21,4 +21,4 @@ standard_dev = np.std(Data_n)
 Nump_array = np.array([[1,2,3],[4,5,7]])
 
 var_Nump_array = np.var(Nump_array, axis=1)
-var_Nump_array1 = np.var(Nump_array, axis=0)
+tvar_Nump_array1 = np.var(Nump_array, axis=0)
