@@ -42,5 +42,15 @@ data_set2 = pd.DataFrame(DF, index= ['std1','std2','std3','std4'], columns= ['ag
 
 data_set2['grade3'] = [9,6,7,10]
 
+#viewing data stored at a specific location
+pos1 = data_set2.loc['std2']
 
+#locating item using index 
+pos2 = data_set2.iloc[1][3]
+
+#choosing an entire column 
+pos3 = data_set2.iloc[:,0]
+
+#choosing several columns
+pos4 = data_set2.iloc[:,1:3]
 
