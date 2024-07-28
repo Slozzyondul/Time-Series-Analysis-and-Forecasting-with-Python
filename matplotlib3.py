@@ -21,8 +21,15 @@ customer2 = [14,16,11,7,6,6,7,6,5,8,9,12]
 plt.scatter(month,customer1,color = 'red', label='customer1')
 plt.scatter(month,customer2,color = 'yellow', label='customer2')
 plt.xlabel('month')
-plt.ylabel('consumption')
+plt.ylabel('consumption') 
 plt.title('scatter plot sample graph')
 plt.grid()
 plt.legend(loc = 'best')
+plt.show()
+
+#histogram
+plt.hist(customer1, bins = 20, color = 'green')
+plt.xlabel('month')
+pt.ylabel('consumption')
+plt.title('histogram')
 plt.show()
