@@ -28,8 +28,13 @@ plt.legend(loc = 'best')
 plt.show()
 
 #histogram
+#
 plt.hist(customer1, bins = 20, color = 'green')
 plt.xlabel('month')
-pt.ylabel('consumption')
+plt.ylabel('consumption')
 plt.title('histogram')
+plt.show()
+
+#bargraph
+plt.bar(month,customer1,color='red', width=0.7)
 plt.show()
