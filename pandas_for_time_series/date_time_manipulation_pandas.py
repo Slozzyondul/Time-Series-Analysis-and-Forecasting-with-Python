@@ -28,3 +28,4 @@ df = pd.DataFrame(data1)
 df.set_index(date3, inplace=True)
               
 df1 = pd.read_csv('/home/ondul/Desktop/time_series_python/Time-Series-Analysis-and-Forecasting-with-Python/Data-Set.csv', index_col='DATE', parse_dates=True)
+df1.info()
