@@ -32,3 +32,5 @@ test = df.iloc[510:,0]
 
 decomp_result = seasonal_decompose(df)
 decomp_result.plot()
+
+decomp_result.seasonal.plot()
