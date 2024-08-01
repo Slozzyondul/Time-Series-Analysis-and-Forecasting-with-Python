@@ -16,3 +16,13 @@ df = pd.read_csv('Temp-Data.csv', index_col = 'DATE', parse_dates=True)
 
 df.index.freq = 'D'
 df.dropna(inplace=True)
+
+#filtering out uneeded columns 
+df = pd.DataFrame(df["Temp"])
+
+df.plot()
+
+#training set
+
+train = df.iloc[:510,0]
+test = df.iloc[510:,0]
